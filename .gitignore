@@ -1,0 +1,29 @@
+
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Arquivos de banco de dados SQLite
+*.db
+*.sqlite3
+
+# Arquivos temporários e cache
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+
+# Arquivos do Streamlit
+.streamlit/
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de pacotes
+*.egg-info/
+dist/
+build/
