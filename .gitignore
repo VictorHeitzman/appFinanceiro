@@ -1,29 +1,34 @@
 
 # Ambiente virtual
 venv/
-ENV/
-env/
 .venv/
+env/
 
-# Arquivos de banco de dados SQLite
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Banco de dados SQLite
 *.db
 *.sqlite3
 
-# Arquivos temporários e cache
-__pycache__/
-*.py[cod]
+# Arquivo de chave do Firebase
+firebase_service_key.json
+
+# Arquivos temporários
 *.log
 *.tmp
 *.bak
 
-# Arquivos do Streamlit
+# Diretório do Streamlit
 .streamlit/
 
-# Configurações do sistema
+# Arquivos do sistema
 .DS_Store
 Thumbs.db
 
-# Arquivos de pacotes
+# Builds e pacotes
 *.egg-info/
 dist/
 build/
